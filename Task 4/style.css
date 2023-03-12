@@ -1,0 +1,68 @@
+body {
+	font-size: 20px;
+}
+
+header {
+	display: grid;
+	grid-template-columns: 400px 250px;
+	margin-left: 550px;
+	margin-right: 510px;
+	justify-content: right;
+	background-image: url(img/fone.jpg);
+	background-size: 100% 150%;
+	color: #324AB2;
+}
+
+.title, .quote {
+}
+
+.quote {
+	align-items: center;
+	display: flex;
+}
+
+.quote div {
+}
+
+main {
+
+}
+
+footer {
+	text-align: center;
+	background-color: pink;
+	padding: 15px;
+	font-style: italic;
+	display: grid;
+}
+
+h2, .accent {
+	color: purple;
+}
+
+.days-list {
+	display: grid;
+	grid-template-columns: 400px 400px;
+	justify-content: center;
+	row-gap: 30px;
+	column-gap: 20px;
+}
+
+.day b {
+	color: darkred;
+}
+
+.day {
+	list-style-type: none;
+	padding-left: 15px;
+}
+
+.day-1, .day-2 {
+	border: 1px solid #FFEFD5;
+	background-color: #FFFAF0;
+}
+
+.day-3, .day-4 {
+	background-color: #FFEFD5;
+	border: 1px solid #FFE3B8;
+}
